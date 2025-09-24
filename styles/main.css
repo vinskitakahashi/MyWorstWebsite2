@@ -1,0 +1,91 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html, body {
+    background-color: burlywood;
+    font-family: 'Segoe UI', 'Tahoma', 'Verdana', sans-serif;
+    line-height: 1.7em;
+}
+
+body {
+    background-image: url("/images/photo-1.jpg");
+    background-color: rgb(125,125,125);
+    background-blend-mode: multiply;
+}
+
+header {
+    background-color: rgb(151, 142, 88);
+}
+
+nav {
+    justify-content: center;
+    justify-self: center;
+    align-items: center;
+}
+
+#navbar {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+aside {
+    background-color: rgb(177,177,177);    
+    background-image: url(/images/photo-2.jpg);
+    background-blend-mode: multiply;
+    padding-bottom: 128px;
+}
+
+footer {
+    background-color: rgb(104, 77, 47);
+    text-align: center;
+
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    bottom: 0;
+}
+
+section {
+    justify-content: center;
+    justify-self: center;
+    align-items: center;
+}
+
+article {
+    background-color: rgba(25, 25, 25, 0.9);
+    padding-bottom: 8px;
+    margin-bottom: 8px;
+    margin-left: 8px;
+    margin-right: 50%;
+}
+
+p {
+    color: rgb(255,255,255);
+}
+
+h1 {
+    padding-bottom: 30px;
+    color: rgb(255,255,255);
+}
+
+h2 {
+    color: rgb(255,255,255);
+}
+
+h3 {
+    color: rgb(255,255,255);
+}
+
+a {
+    color: rgb(255,255,255);
+}
+
+#navbar a {
+    color: gold;
+}
