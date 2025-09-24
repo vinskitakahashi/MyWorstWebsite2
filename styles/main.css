@@ -8,6 +8,7 @@ html, body {
     background-color: burlywood;
     font-family: 'Segoe UI', 'Tahoma', 'Verdana', sans-serif;
     line-height: 1.7em;
+    height: 100%;
 }
 
 body {
@@ -18,12 +19,15 @@ body {
 
 header {
     background-color: rgb(151, 142, 88);
+    border: solid 2px;
 }
 
 nav {
+    display: flex;
+    background-color: rgb(173, 163, 104);
     justify-content: center;
-    justify-self: center;
     align-items: center;
+    height: 60px;
 }
 
 #navbar {
@@ -33,14 +37,23 @@ nav {
     text-align: center;
 }
 
+#navbar a {
+    color: gold;
+    font-size: 28px;
+}
+
 aside {
-    background-color: rgb(177,177,177);    
-    background-image: url(/images/photo-2.jpg);
+    border: solid 2px;
+    background-color: rgb(197, 146, 87);    
     background-blend-mode: multiply;
     padding-bottom: 128px;
+    position: absolute;
+    bottom: 0px;
+    width: 100%;
 }
 
 footer {
+    border: solid 2px;
     background-color: rgb(104, 77, 47);
     text-align: center;
 
@@ -55,6 +68,7 @@ section {
     justify-content: center;
     justify-self: center;
     align-items: center;
+    width: 50%;
 }
 
 article {
@@ -84,8 +98,4 @@ h3 {
 
 a {
     color: rgb(255,255,255);
-}
-
-#navbar a {
-    color: gold;
 }
