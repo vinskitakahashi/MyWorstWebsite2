@@ -5,46 +5,56 @@
 }
 
 html, body {
-    background-color: burlywood;
     font-family: 'Segoe UI', 'Tahoma', 'Verdana', sans-serif;
     line-height: 1.7em;
     height: 100%;
 }
 
 body {
-    background-image: url("/images/photo-1.jpg");
-    background-color: rgb(125,125,125);
+    background-image: url("../images/test-bg.jpg");
+    background-attachment: fixed;
+    background-color: rgb(188,188,188);
     background-blend-mode: multiply;
 }
 
 header {
-    background-color: rgb(151, 142, 88);
+    background-color: rgb(48, 48, 48);
     border: solid 2px;
 }
 
 nav {
-    display: flex;
-    background-color: rgb(173, 163, 104);
-    justify-content: center;
-    align-items: center;
-    height: 60px;
+  height: 60px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
-#navbar {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    text-align: center;
+#navbar ul {
+  display: flex;
+  gap: 16px;
+  list-style: none;
+  margin: 0;
+  padding: 0;
 }
 
-#navbar a {
-    color: gold;
-    font-size: 28px;
+#navbar ul li a {
+    font-size: 32px;
+    color: white;
+}
+
+#navbar ul li a:hover {
+  color: rgb(255, 255, 125);
+}
+
+.centeredimage {
+    display: block;
+    margin: auto;
+    width: 75%;
 }
 
 aside {
     border: solid 2px;
-    background-color: rgb(197, 146, 87);    
+    background-color: rgb(44, 44, 44);    
     background-blend-mode: multiply;
     padding-bottom: 128px;
     position: absolute;
@@ -54,7 +64,7 @@ aside {
 
 footer {
     border: solid 2px;
-    background-color: rgb(104, 77, 47);
+    background-color: rgb(25, 25, 25);
     text-align: center;
 
     position: fixed;
@@ -65,18 +75,16 @@ footer {
 }
 
 section {
-    justify-content: center;
-    justify-self: center;
-    align-items: center;
-    width: 50%;
+    width: 60%;
+    margin: 0 auto;
 }
 
 article {
     background-color: rgba(25, 25, 25, 0.9);
     padding-bottom: 8px;
-    margin-bottom: 8px;
-    margin-left: 8px;
-    margin-right: 50%;
+    margin-bottom: 12px;
+    
+    margin-right: auto;
 }
 
 p {
